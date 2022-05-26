@@ -1,0 +1,35 @@
+Qus -- What is used of 'this' And 'super' keyword in java ..
+
+
+Ans....
+
+Super key word used in java for calling instence parents class.
+while this key word in java for calling same class.
+ 
+in simple word ..
+
+this keyword mainly represents the current instance of a class. On other hand super keyword represents the current instance of a parent class..
+
+Ex.
+
+class Animals {
+void fun1(){
+System.out.println("the Animals have four lags ")
+}
+
+}
+
+class Dog extends Animals {
+ void fun2(){
+ System.out.println("dog have barking")
+ }
+dog.super
+}
+
+public class Main{
+public static void main(String[] args){
+
+
+}
+
+}
